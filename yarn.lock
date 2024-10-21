@@ -1730,6 +1730,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"babel-decorators-static-fields-repro@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "babel-decorators-static-fields-repro@workspace:."
+  dependencies:
+    "@babel/cli": "npm:^7.25.7"
+    "@babel/core": "npm:^7.25.8"
+    "@babel/plugin-proposal-decorators": "npm:^7.25.7"
+    "@babel/plugin-proposal-private-methods": "npm:^7.18.6"
+    "@babel/plugin-transform-class-properties": "npm:^7.25.7"
+    "@babel/plugin-transform-class-static-block": "npm:^7.25.8"
+    "@babel/preset-env": "npm:^7.25.8"
+    "@babel/preset-typescript": "npm:^7.25.7"
+    "@types/babel__core": "npm:^7"
+    "@types/babel__preset-env": "npm:^7"
+    "@types/react": "npm:^18"
+    metro-react-native-babel-preset: "npm:0.73.10"
+    react: "npm:^18.3.1"
+    react-obsidian: "npm:3.0.0-alpha.6"
+    typescript: "npm:^5.6.3"
+  languageName: unknown
+  linkType: soft
+
 "babel-plugin-polyfill-corejs2@npm:^0.4.10":
   version: 0.4.11
   resolution: "babel-plugin-polyfill-corejs2@npm:0.4.11"
@@ -1984,28 +2006,6 @@ __metadata:
   checksum: 10c0/1471db19c3b06d485a622d62f65947a19a23fbd0dd73f7fd3eafb697eec5360cde447fb075919987899b1a2096e85d35d4eb5a4de09a57600ac9cf7e6c8e768b
   languageName: node
   linkType: hard
-
-"decoratorsStaticFieldsRepro@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "decoratorsStaticFieldsRepro@workspace:."
-  dependencies:
-    "@babel/cli": "npm:^7.25.7"
-    "@babel/core": "npm:^7.25.8"
-    "@babel/plugin-proposal-decorators": "npm:^7.25.7"
-    "@babel/plugin-proposal-private-methods": "npm:^7.18.6"
-    "@babel/plugin-transform-class-properties": "npm:^7.25.7"
-    "@babel/plugin-transform-class-static-block": "npm:^7.25.8"
-    "@babel/preset-env": "npm:^7.25.8"
-    "@babel/preset-typescript": "npm:^7.25.7"
-    "@types/babel__core": "npm:^7"
-    "@types/babel__preset-env": "npm:^7"
-    "@types/react": "npm:^18"
-    metro-react-native-babel-preset: "npm:0.73.10"
-    react: "npm:^18.3.1"
-    react-obsidian: "npm:3.0.0-alpha.6"
-    typescript: "npm:^5.6.3"
-  languageName: unknown
-  linkType: soft
 
 "eastasianwidth@npm:^0.2.0":
   version: 0.2.0
