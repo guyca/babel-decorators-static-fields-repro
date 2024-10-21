@@ -1,5 +1,5 @@
 {
-  "name": "decoratorsStaticFieldsRepro",
+  "name": "babel-decorators-static-fields-repro",
   "scripts": {
     "build": "babel src --out-dir dist --extensions \".ts\"",
     "start": "node dist/index.js"
