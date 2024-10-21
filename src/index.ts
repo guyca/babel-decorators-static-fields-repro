@@ -1,12 +1,8 @@
 import { inject, injectable } from "react-obsidian";
 import { MainGraph } from "./graph";
 
-class Base {
-  static something = 'something';
-}
-
 @injectable(MainGraph)
-export class Main extends Base {
+export class Main {
   @inject() foo!: String;
 
   static displayName = 'Main';
